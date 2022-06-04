@@ -3,191 +3,49 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!--<link rel="stylesheet" href="mystylesheet.css">-->
+<link rel="stylesheet" href="mystylesheet.css">
 <title>Module 2 Solution</title>
-<style>
-* {
-  box-sizing: border-box;
-  margin-block-start: 0;
-    margin-block-end: 0;
-}
 
-h1 {
-  text-align: center;
-  padding-top: 5%;
-  padding-bottom: 5%;
-}
-
-
-section {
-  border:  3px black solid;
-  height: auto;
-  float: left;
-  position: relative;
-  padding:  5px;
-  padding-top:  0px;
-  padding-right: 0px;
-  margin: 3px;
-  color:  black;
-  background-color: #EBFDFF;
-}
-
-p {
-  text-align: left;
-  clear:  right;
-}
-
-p.title {
-  font-weight: bold;
-  text-align: center;
-  width:  30%;
-  padding: 20px;
-}
-
-.first p.title {
-  background-color: #FFCBEB; 
-  border: 3px black solid;
-  border-right-width: 0px;
-  border-top-width: 0px;
-  position: relative;
-  float: right;
-}
-
-.second p.title {
-  background-color: #6F4135; 
-  border: 3px black solid;
-  border-right-width: 0px;
-  border-top-width: 0px;
-  color: white;
-  position: relative;
-  float: right;
-}
-
-.third p.title {
-  background-color: #FFF997; 
-  border: 3px black solid;
-  border-right-width: 0px;
-  border-top-width: 0px;
-  pposition: relative;
-  float: right;
-}
-
-
-/* Simple Responsive Framework. */
-.row {
-  width: 100%;
-}
-
-/********** Large devices only **********/
-@media (min-width: 992px) {
-  .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12 {
-    float: left;
-  }
-  .col-lg-1 {
-    width: 8.33%;
-  }
-  .col-lg-2 {
-    width: 16.66%;
-  }
-  .col-lg-3 {
-    width: 25%;
-  }
-  .col-lg-4 {
-    width: 33.33%;
-  }
-  .col-lg-5 {
-    width: 41.66%;
-  }
-  .col-lg-6 {
-    width: 50%;
-  }
-  .col-lg-7 {
-    width: 58.33%;
-  }
-  .col-lg-8 {
-    width: 66.66%;
-  }
-  .col-lg-9 {
-    width: 74.99%;
-  }
-  .col-lg-10 {
-    width: 83.33%;
-  }
-  .col-lg-11 {
-    width: 91.66%;
-  }
-  .col-lg-12 {
-    width: 100%;
-  }
-}
-
-/********** Medium devices only **********/
-@media (min-width: 768px) and (max-width: 991px) {
-  .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12 {
-    float: left;
-  }
-  .col-md-1 {
-    width: 8.33%;
-  }
-  .col-md-2 {
-    width: 16.66%;
-  }
-  .col-md-3 {
-    width: 25%;
-  }
-  .col-md-4 {
-    width: 33.33%;
-  }
-  .col-md-5 {
-    width: 41.66%;
-  }
-  .col-md-6 {
-    width: 50%;
-  }
-  .col-md-7 {
-    width: 58.33%;
-  }
-  .col-md-8 {
-    width: 66.66%;
-  }
-  .col-md-9 {
-    width: 74.99%;
-  }
-  .col-md-10 {
-    width: 83.33%;
-  }
-  .col-md-11 {
-    width: 91.66%;
-  }
-  .col-md-12 {
-    width: 100%;
-  }
-}
-
-</style>
 </head>
 <body>
   
 <h1>Our Menu</h1>
-  <div class="container">
-      <section class="col-lg-4 col-md-6 col-s-12 first flex-container">
-        <span><p class="title">Chicken</p></span>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
+
+  <div class="row">
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <section id="section-1">
+        <h2>
+          Chicken
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at congue urna, sit amet malesuada elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec suscipit ultricies rhoncus. Aenean sapien magna, euismod ornare metus eu, accumsan scelerisque tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus pretium lorem quis nisi dignissim, ac malesuada mauris consequat. Phasellus volutpat eu risus eget porttitor. Cras quis urna quam. Mauris sed placerat lectus, in luctus magna. Integer sagittis sollicitudin cursus. Nullam eu ultrices tortor.
+        </p>
       </section>
-  </div>   
+    </div>
 
-  <div class="container">
-    <section class="col-lg-4 col-md-6 col-s-12 second flex-container">
-      <span><p class="title">Beef</p></span>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-    </section>
-  </div>
 
-  <div class="container">
-    <section class="col-lg-4 col-md-12 col-s-12 third flex-container">
-      <span><p class="title">Sushi</p></span>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</p>
-    </section>
+    <div class="col-sm-12 col-md-6 col-lg-4">
+      <section id="section-2">
+        <h2>
+          Beef
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at congue urna, sit amet malesuada elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec suscipit ultricies rhoncus. Aenean sapien magna, euismod ornare metus eu, accumsan scelerisque tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus pretium lorem quis nisi dignissim, ac malesuada mauris consequat. Phasellus volutpat eu risus eget porttitor. Cras quis urna quam. Mauris sed placerat lectus, in luctus magna. Integer sagittis sollicitudin cursus. Nullam eu ultrices tortor.
+        </p>
+      </section>
+    </div>
+
+
+    <div class="col-sm-12 col-md-12 col-lg-4">
+      <section id="section-3">
+        <h2>
+          Sushi
+        </h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at congue urna, sit amet malesuada elit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Donec suscipit ultricies rhoncus. Aenean sapien magna, euismod ornare metus eu, accumsan scelerisque tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus pretium lorem quis nisi dignissim, ac malesuada mauris consequat. Phasellus volutpat eu risus eget porttitor. Cras quis urna quam. Mauris sed placerat lectus, in luctus magna. Integer sagittis sollicitudin cursus. Nullam eu ultrices tortor.
+        </p>
+      </section>
+    </div>
   </div>
 
 </body>
